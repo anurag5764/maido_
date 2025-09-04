@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-900 antialiased;
+  }
+
+  input, select, textarea {
+    @apply border-gray-300 focus:border-yellow-500 focus:ring-yellow-500;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-yellow-600 text-white px-6 py-2 rounded-full hover:bg-yellow-700 transition-colors;
+  }
+}
+
+@layer utilities {
+  .clip-path-curve {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 0);
+  }
+}
+
+/* Animation for TRUSTED text */
+@keyframes highlightText {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  50% {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
+.animate-highlight {
+  animation: highlightText 1s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  animation-delay: 300ms;
+}
