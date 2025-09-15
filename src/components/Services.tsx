@@ -120,12 +120,12 @@ const Services = () => {
                                 flex items-center justify-center">
                       <service.icon className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6 text-yellow-900" />
                     </div>
-                    {service.isActive && (
+                    {/* {service.isActive && (
                       <div className="flex items-center gap-1">
                         <Star className="w-4 h-4 md:w-5 md:h-5 fill-yellow-400 text-yellow-400" />
                         <span className="font-semibold text-gray-900 text-sm md:text-base">{service.rating}</span>
                       </div>
-                    )}
+                    )} */}
                   </div>
 
                   <h3 className="text-base md:text-lg lg:text-xl font-bold text-gray-900 mb-1 md:mb-2">
@@ -136,11 +136,11 @@ const Services = () => {
                     {service.description}
                   </p>
 
-                  {service.isActive && (
+                  {/* {service.isActive && (
                     <div className="flex items-center text-xs md:text-sm text-gray-500 mb-3">
                       <span>{service.totalReviews.toLocaleString()} reviews</span>
                     </div>
-                  )}
+                  )} */}
 
                   {/* Book Now Button */}
                   {service.isActive ? (
@@ -178,14 +178,14 @@ const Services = () => {
           </div>
 
           {/* Trust Badge */}
-          <div className="mt-12 md:mt-16 text-center">
+          {/* <div className="mt-12 md:mt-16 text-center">
             <div className="inline-flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-yellow-50 rounded-full">
               <Star className="w-4 h-4 md:w-5 md:h-5 text-yellow-600" />
               <span className="text-yellow-900 font-medium text-sm md:text-base">
                 Trusted by 5000+ families across India
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
