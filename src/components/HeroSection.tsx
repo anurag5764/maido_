@@ -67,13 +67,13 @@ const HeroSection = () => {
                   <div className="text-xs sm:text-sm text-yellow-100">100% Background Checked</div>
                 </div>
               </div>
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 <Users className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-400" />
                 <div>
                   <div className="font-semibold text-white text-sm sm:text-base">5000+ Families</div>
                   <div className="text-xs sm:text-sm text-yellow-100">Trust Our Services</div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -115,7 +115,7 @@ const services = [
   {
     title: 'Babysitters/Japas',
     description: 'Experienced caregivers for your little ones',
-    image: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&q=80'
+    image: 'babysiter.jpg'
   },
   {
     title: 'Home Cooks',

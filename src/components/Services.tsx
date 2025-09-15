@@ -30,7 +30,7 @@ const services = [
     icon: Utensils,
     title: 'Dishwashing',
     description: 'Professional dishwashing services',
-    image: 'https://images.unsplash.com/photo-1585837575652-267c041d77d4?auto=format&fit=crop&q=80',
+    image: 'dishwashing.jpg',
     rating: 4.7,
     totalReviews: 8,
     isActive: true

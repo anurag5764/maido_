@@ -33,7 +33,7 @@ const Contact = () => {
                 href="tel:+918401840142"
                 className="text-gray-600 hover:text-yellow-700 transition-colors"
               >
-                +91 8401-8401-42
+                +91 8767682669
               </a>
             </div>
 
@@ -67,14 +67,14 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-yellow-700 transition-colors flex items-center gap-1"
               >
-                +91 8401-8401-42
+                +91 73399155453
                 <ExternalLink className="w-4 h-4" />
               </a>
             </div>
           </div>
 
           {/* Office Location */}
-          <div className="bg-white rounded-xl p-8 shadow-lg mb-16">
+          {/* <div className="bg-white rounded-xl p-8 shadow-lg mb-16">
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mr-4">
                 <MapPin className="w-6 h-6 text-yellow-900" />
@@ -151,7 +151,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Contact Form */}
           <div className="bg-white rounded-xl p-8 shadow-lg">

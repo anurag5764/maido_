@@ -92,15 +92,9 @@ const Footer = () => {
               Connect With Us
             </h4>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-white transition-colors">
-                <Facebook className="w-6 h-6" />
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
-                <Instagram className="w-6 h-6" />
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
-                <MessageCircle className="w-6 h-6" />
-              </a>
+                <p className="text-sm">
+                support@maido.com
+              </p>
             </div>
           </div>
         </div>
